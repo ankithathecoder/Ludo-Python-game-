@@ -71,6 +71,8 @@ def OnTokenMotion(event):
 
 canvas.tag_bind("oval", "<ButtonPress-1>", OnTokenButtonPress)
 canvas.tag_bind("oval", "<B1-Motion>", OnTokenMotion)
+
+#all the code is for the dice
 class RollTheDice:
     def __init__(self, parent):
         self.dieParent = parent

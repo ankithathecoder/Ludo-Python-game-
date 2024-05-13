@@ -148,6 +148,7 @@ def board():                            #Drawing the board, piece by piece.
     Label(image=logoh3, width=46, height=46).place(x=300, y=250)
     Label(image=logot3, width=46, height=46).place(x=250, y=300)
 
+#logic part
 class YBox:                               #Class of yellow box
     rap = None
 
